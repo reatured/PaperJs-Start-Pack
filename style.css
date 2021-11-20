@@ -1,0 +1,56 @@
+body,
+    input,
+    button {
+      font-family: "Roboto";
+      font-weight: 100;
+    }
+
+    canvas {
+      border: 1px solid #aaa;
+    }
+
+    fieldset {
+      margin: 0;
+      padding: 0;
+      border: none;
+    }
+
+    fieldset legend {
+      padding: 0;
+    }
+
+    fieldset ul {
+      padding: 0;
+    }
+
+    fieldset li {
+      list-style: none;
+      margin-bottom: 0.5em;
+    }
+
+    fieldset label {
+      display: inline-block;
+      width: 100px;
+    }
+
+    fieldset input {
+      border-radius: 0;
+      border: 1px solid #aaa;
+    }
+
+    button {
+      border: 1px solid #aaa;
+      border-radius: 5px;
+      padding: 5px;
+      background: none;
+      margin-bottom: 1em;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #eee;
+    }
+
+    button:hover:active {
+      background: #cee;
+    }
